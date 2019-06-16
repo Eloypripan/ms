@@ -4,4 +4,4 @@ services:
   - docker
 
 script:
-  - docker image build --tag kitematic/minecraft .
+  - docker image build --tag eloypripan/ms .
