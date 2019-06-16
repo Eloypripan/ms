@@ -5,3 +5,4 @@ services:
 
 script:
   - docker image build --tag eloypripan/ms .
+  
