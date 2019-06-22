@@ -20,4 +20,5 @@ VOLUME /data
 EXPOSE 25565
 
 #Automatically accept Minecraft EULA, and start Minecraft server
-CMD echo eula=true > /data/eula.txt && java -Xmx3024M -Xms3024M -jar -jar /server.jar nogui
+CMD echo eula=true > /data/eula.txt
+CMD java -Xmx3024M -Xms3024M -jar -jar /server.jar nogui
