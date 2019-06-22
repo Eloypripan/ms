@@ -8,10 +8,11 @@ RUN apt-get -y upgrade
 RUN apt-get -y install software-properties-common
 RUN apt-get -y install openjdk-8-jre-headless
 RUN apt get -y wget
-RUN mkdir siensiacraft
-RUN cd siensiacraft
+#RUN mkdir siensiacraft
+#RUN cd siensiacraft
 RUN wget https://launcher.mojang.com/v1/objects/808be3869e2ca6b62378f9f4b33c946621620019/server.jar
 RUN chmod +x server.jar
+
 WORKDIR /data
 VOLUME /data
 
