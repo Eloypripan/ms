@@ -11,7 +11,7 @@ RUN apt-get -y install openjdk-8-jre-headless
 RUN apt-get -y install wget
 RUN mkdir siensiacraft
 RUN cd siensiacraft
-RUN wget https://launcher.mojang.com/v1/objects/808be3869e2ca6b62378f9f4b33c946621620019/server.jar
+RUN wget https://launcher.mojang.com/v1/objects/d0d0fe2b1dc6ab4c65554cb734270872b72dadd6/server.jar
 RUN chmod +x server.jar
 
 VOLUME /siensiacraft
