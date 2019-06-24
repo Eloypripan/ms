@@ -1,5 +1,5 @@
 # imagen de ubuntu
-#FROM ubuntu:16.04
+FROM ubuntu:16.04
 # support
 MAINTAINER eloypripan <https://github.com/Eloypripan/>
 # ejecutar:
