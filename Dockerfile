@@ -21,5 +21,5 @@ EXPOSE 25565
 
 #Automatically accept Minecraft EULA, and start Minecraft server
 CMD echo "eula=true" > /eula.txt
-RUN -it bash
+CMD -it bash
 # CMD java -Xmx4024M -Xms4024M -jar -jar /server.jar nogui
