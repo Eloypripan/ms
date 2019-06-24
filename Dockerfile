@@ -1,8 +1,9 @@
 # imagen de ubuntu
-FROM ubuntu:16.04
+#FROM ubuntu:16.04
 # support
 MAINTAINER eloypripan <https://github.com/Eloypripan/>
 # ejecutar:
+#RUN -it ubuntu bash
 RUN apt-get -y update
 RUN apt-get -y upgrade
 RUN apt-get -y install software-properties-common
@@ -20,5 +21,5 @@ EXPOSE 25565
 
 #Automatically accept Minecraft EULA, and start Minecraft server
 CMD echo "eula=true" > /eula.txt
-RUN bash
+RUN -it bash
 # CMD java -Xmx4024M -Xms4024M -jar -jar /server.jar nogui
