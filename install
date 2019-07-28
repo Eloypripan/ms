@@ -1,0 +1,11 @@
+sudo apt-get upgrade
+sudo apt-add-repository ppa:nilarimogard/webupd8
+sudo apt-get update
+sudo apt-get -y install software-properties-common openjdk-8-jre-headless wget grive
+grive -a
+
+chmod +x siensiacraft.jar
+java -Xmx4024M -Xms4024M -jar -jar siensiacraft.jar nogui
+
+
+zS=A9~S:OQN;&:>
